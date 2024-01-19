@@ -1,0 +1,253 @@
+body {
+    background-color: rgb(138, 189, 204);
+    margin:0;
+    padding:0;
+}
+
+.header li {
+    float: right;
+    margin-right: 10px;
+    list-style: none;
+    padding: 10px 25px;
+    font-size: 15px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.back-video {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    margin-bottom: 250px;
+
+
+}
+
+.image1 {
+    display: flex;
+    height: 60px;
+    width: 90px;
+    position: absolute;
+    right: 50%;
+    bottom: 80%
+}
+
+.heading {
+    color: gray;
+    text-align: center;
+    padding-top: 30px;
+    letter-spacing: 30px;
+}
+
+.header h2 {
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    padding-top: 20px;
+    border: 3px solid rgb(104, 184, 224);
+    border-radius: 60px;
+    max-width: fit-content;
+    margin: auto;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.discription1 {
+    color: whitesmoke;
+    font-size: 60px;
+    margin-top: 190px;
+    float: right;
+    margin-right: 350px;
+}
+
+.discription2 {
+    color: whitesmoke;
+    font-size: 30px;
+    margin-top: 280px;
+    margin-left: 950px;
+}
+
+.features {
+    margin-top: 60px;
+}
+
+.features li {
+    padding: 20px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    display: flex;
+    position: relative;
+}
+
+.photo {
+    margin-left: 13px;
+}
+
+.photo img {
+    display: flex;
+    display: inline-block;
+    height: 120px;
+    width: 150px;
+    border: 1px solid black;
+    margin: 68px;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    border-radius: 8px;
+    padding: 3px;
+    box-shadow: 0px 0px 20px 2px rgb(119, 117, 117);
+    transition: 1s;
+}
+
+.photo img:hover {
+    transform: scale(1.3);
+    z-index: 3;
+}
+
+#Managementt {
+    margin-right: 90px;
+}
+
+#supportt {
+    margin-right: 175px;
+
+}
+
+#flightt {
+    margin-right: 110px;
+}
+
+#discountt {
+    margin-right: 140px;
+}
+
+#guidet {
+    margin-right: 195px;
+}
+
+p {
+    height: 60px;
+    width: 190px;
+    margin-top: 30px;
+    float: inline-start;
+    margin-top: -60px;
+    margin-left: 80px;
+    padding-right: 30px;
+}
+
+.form {
+    float: inline-start;
+    font-size: 25px;
+    background-color: orange;
+    margin-left: 350px;
+    margin-top: 80px;
+    padding: 30px;
+    padding-bottom: 20px;
+    border-bottom: 50px;
+    border-top-left-radius: 60px;
+    border-bottom-left-radius: 60px;
+
+}
+
+.man img {
+    position: absolute;
+    top: 108%;
+    left: 80px;
+    height: 330px;
+    width: 250px;
+}
+
+.side img {
+    position: absolute;
+    top: 115%;
+    right: 80px;
+    height: 250px;
+    width: 300px;
+}
+
+button {
+    float: inline-end;
+    margin-top: 80px;
+    margin-right: 418px;
+    padding: 30px;
+    color: white;
+    font-size: 25px;
+    background-color: black;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding-bottom: 16px;
+    transition: 0.50s;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    background-color: black;
+    height: 390px;
+    width: 100%;
+    margin-top: 400px;
+    padding: 0%;
+    margin-bottom: 0%;
+}
+
+.f-logo {
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+.f-logo img {
+    float: inline-end;
+    height: 30px;
+    width: 30px;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.row ul {
+    float: inline-start;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    margin-bottom: 100px;
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.row a {
+    text-decoration: none;
+    color: white;
+    transition: 0.50sec;
+}
+
+.row a:hover {
+    text-decoration: underline;
+}
+
+.row {
+    margin-left: 260px;
+    padding-top: 50px;
+}
+
+.row li {
+    padding-bottom: 15px;
+}
+
+.f-des {
+    color: white;
+    margin-top: 300px;
+}
